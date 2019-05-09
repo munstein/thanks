@@ -1,0 +1,6 @@
+#!/bin/bash
+# Author: munstein
+RANDOM=$$
+username=$(whoami)
+echo "No problem, $username." 
+echo $RANDOM
