@@ -6,7 +6,7 @@ NC='\033[0m'
 username=$(whoami)
 num=$(( $RANDOM % 2 ))
 if [ $num -eq 0 ]; then
-	echo -e "No problem, $username. :>" 
+	echo -e "No problem, ${RED}$username${NC}. :>" 
     else
-        echo -e "You're welcome, $username. :)" 
+        echo -e "You're welcome, ${RED}$username${NC}. :)" 
 fi
